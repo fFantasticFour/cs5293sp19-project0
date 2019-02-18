@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pytest = "*"
+e1839a8 = {path = "."}
+bs4 = "*"
+pypdf = "*"
+pypdf2 = "*"
+tabula-py = "*"
+camelot-py = "*"
+opencv-python = "*"
+sqlalchemy = "*"
+argparse = "*"
+
+[requires]
+python_version = "3.6"
